@@ -1,6 +1,6 @@
 # 🚀 First Java Program – Hello World & main() Method
 
-## 📌 Introduction
+## 📘 Introduction
 Java is one of the most widely used programming languages in the world.  
 Every Java program begins with a **class** and executes from a special method called **`main`**.
 
@@ -19,7 +19,7 @@ public class HelloWorld {
 }
 ```
 
-### 📌 Concept
+### 📘 Concept
 
 ---
 public static void main(String[] args)  
@@ -54,7 +54,7 @@ public class CommandLineExample {
     }
 }
 ```
-### 📌 Concept
+### 📘 Concept
 
 ---
 - args is an array of strings passed when the program is run.  
