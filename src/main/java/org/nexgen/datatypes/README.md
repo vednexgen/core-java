@@ -96,3 +96,13 @@ public class NonPrimitiveTypes {
 ```
 
 ---
+
+## 📌 Java Syntax Rules
+
+- Case-sensitive language
+- Class name should start with a capital letter
+- File name = Class name (public class)
+- Each statement ends with ;
+- Code blocks enclosed in { }
+
+---
