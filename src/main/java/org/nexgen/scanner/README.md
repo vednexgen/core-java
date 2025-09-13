@@ -154,3 +154,5 @@ public class ScannerNextVsNextLine {
 * The Scanner class allows you to **take input from the user** via console.
 * Supports multiple data types: `int`, `double`, `String`, `boolean`, etc.
 * Essential for interactive programs, assignments, and console-based applications.
+
+---
