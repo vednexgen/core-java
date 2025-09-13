@@ -18,16 +18,16 @@ Data types are classified into:
 These are the most basic data types built into Java.  
 They store simple values directly in memory.
 
-| Data Type | Size   | Default Value | Example | Range |
-|-----------|--------|---------------|---------|-------|
-| `byte`    | 1 byte | 0             | `byte b = 100;` | -128 to 127 |
-| `short`   | 2 bytes| 0             | `short s = 1000;` | -32,768 to 32,767 |
-| `int`     | 4 bytes| 0             | `int x = 50000;` | -2,147,483,648 to 2,147,483,647 |
-| `long`    | 8 bytes| 0L            | `long l = 100000L;` | -2^63 to 2^63-1 |
-| `float`   | 4 bytes| 0.0f          | `float f = 3.14f;` | 7 decimal digits precision |
-| `double`  | 8 bytes| 0.0d          | `double d = 3.14159;` | 15 decimal digits precision |
-| `char`    | 2 bytes| `'\u0000'`    | `char c = 'A';` | Unicode characters |
-| `boolean` | 1 bit  | false         | `boolean flag = true;` | true or false |
+| Data Type | Size   | Default Value  | Example                | Range                           |
+|-----------|--------|----------------|------------------------|---------------------------------|
+| `byte`    | 1 byte | 0              | `byte b = 100;`        | -128 to 127                     |
+| `short`   | 2 bytes| 0              | `short s = 1000;`      | -32,768 to 32,767               |
+| `int`     | 4 bytes| 0              | `int x = 50000;`       | -2,147,483,648 to 2,147,483,647 |
+| `long`    | 8 bytes| 0L             | `long l = 100000L;`    | -2^63 to 2^63-1                 |
+| `float`   | 4 bytes| 0.0f           | `float f = 3.14f;`     | 7 decimal digits precision      |
+| `double`  | 8 bytes| 0.0d           | `double d = 3.14159;`  | 15 decimal digits precision     |
+| `char`    | 2 bytes| `'\u0000'`     | `char c = 'A';`        | Unicode characters              |
+| `boolean` | 1 bit  | false          | `boolean flag = true;` | true or false                   |
 
 ---
 
@@ -97,8 +97,9 @@ public class NonPrimitiveTypes {
 
 ---
 
-## 📌 Java Syntax Rules
+### 📌 Key Notes 
 
+#### Java Syntax Rules
 - Case-sensitive language
 - Class name should start with a capital letter
 - File name = Class name (public class)

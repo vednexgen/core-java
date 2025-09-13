@@ -1,9 +1,22 @@
-🚀 Main Topic
+# 🚀 Main Topic
 
-📌 Note
+## 1. Introduction
 
-📝 Program
+### 📘 Concept
 
-▶️ Execution
+### 📝 Program
 
-📘 Concept
+### ▶️ Execution
+
+### 📌 Key Notes
+
+#### Sub Topic
+
+### Styling
+ - **Bold**  
+ - *Italic*
+ - `jksdj`
+
+### Section 
+    section
+
