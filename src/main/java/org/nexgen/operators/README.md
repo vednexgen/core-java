@@ -1,7 +1,7 @@
 # 🚀 Operators in Java
 
 ---
-## 1. Arithmetic Operators
+## 🏷️ Arithmetic Operators
 
 ### 📘 Concept
 
@@ -57,7 +57,7 @@ public class ArithmeticOperations {
 
 ---
 
-## 2. Relational Operators
+## 🏷️ Relational Operators
 
 ### 📘 Concept
 
@@ -134,7 +134,7 @@ public class RelationalOperatorWithString {
 
 ---
 
-## 3. Logical Operators
+## 🏷️ Logical Operators
 
 ### 📘 Concept
 

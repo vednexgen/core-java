@@ -13,7 +13,7 @@ Why Take User Input?
 
 ### 📘 Concept
 
-### Importing Scanner Class
+#### 🏷️ Importing Scanner Class
 
 Before using the Scanner class, it must be **imported**:
 
@@ -21,7 +21,7 @@ Before using the Scanner class, it must be **imported**:
 import java.util.Scanner;
 ```
 
-### Creating a Scanner Object
+#### 🏷️ Creating a Scanner Object
 
 To read input from the console:
 
@@ -31,8 +31,8 @@ Scanner scanner = new Scanner(System.in);
 
 * `System.in` represents the **standard input stream** (keyboard).
 * `scanner` is the object used to call input methods.
-
-### Reading Different Types of Input
+ 
+#### 🏷️ Reading Different Types of Input
 
 The Scanner class provides various methods to read different types of input:
 
@@ -134,7 +134,6 @@ public class ScannerNextVsNextLine {
     }
 }
 ```
-
 ---
 
 ### 📌 Key Notes

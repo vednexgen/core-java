@@ -11,7 +11,7 @@ Data types are classified into:
 
 ---
 
-## 1 Primitive Data Types
+## 🏷️ Primitive Data Types
 
 ### 📘 Concept
 
@@ -59,7 +59,7 @@ public class PrimitiveTypes {
 
 ---
 
-## 2. Java Non-Primitive (Reference) Data Types  
+## 🏷️ Java Non-Primitive (Reference) Data Types  
 
 ### 📘 Concept
 
