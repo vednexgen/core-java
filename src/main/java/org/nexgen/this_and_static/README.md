@@ -159,7 +159,7 @@ public class StaticNestedClass {
 
 - `this` refers to the current object.
 - `this()` calls another constructor.
-- `static` members belong to the class, not instances.
+- `static` members belong to the class, not instances, thus are shared across all objects.
 - `static` is useful for memory optimization and utility methods.
 
 ---
