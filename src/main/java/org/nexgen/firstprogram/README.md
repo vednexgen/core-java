@@ -10,17 +10,6 @@ This program displays the text `Hello, World!` on the console.
 ---
 
 ## 1. The Hello World Program
-### 📝 Program
-```java
-public class HelloWorld {
-    public static void main(String[] args) {
-        System.out.println("Hello, World!");
-    }
-}
-```
-
----
-
 ### 📘 Concept
 
 public static void main(String[] args)  
@@ -36,6 +25,17 @@ This is the entry point of any Java program.
 
 ---
 
+### 📝 Program
+```java
+public class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Hello, World!");
+    }
+}
+```
+
+---
+
 ### ▶️ Execution Flow
 
 1. Write code in HelloWorld.java.  
@@ -45,6 +45,14 @@ This is the entry point of any Java program.
 ---
 
 ##  2. Using Command Line Arguments (args)
+
+### 📘 Concept
+
+- args is an array of strings passed when the program is run.  
+- args[0] → first argument, args[1] → second argument, and so on.  
+- args.length gives the number of arguments provided.
+
+---
 
 ### 📝 Program
 ```java
@@ -58,14 +66,6 @@ public class CommandLineExample {
     }
 }
 ```
-
----
-
-### 📘 Concept
-
-- args is an array of strings passed when the program is run.  
-- args[0] → first argument, args[1] → second argument, and so on.  
-- args.length gives the number of arguments provided.
 
 ---
 

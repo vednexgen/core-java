@@ -2,7 +2,6 @@
 
 ## 📘 Introduction
 
----
 In Java, data types define the kind of data a variable can hold.  
 Java is **statically typed**, so the type of a variable must be declared before use.
 
@@ -10,11 +9,12 @@ Data types are classified into:
 - **Primitive Data Types** (8 basic types)
 - **Non-Primitive Data Types** (Objects, Strings, Arrays, etc.)
 
+---
+
 ## 1 Primitive Data Types
 
 ### 📘 Concept
 
----
 These are the most basic data types built into Java.  
 They store simple values directly in memory.
 
@@ -28,6 +28,8 @@ They store simple values directly in memory.
 | `double`  | 8 bytes| 0.0d          | `double d = 3.14159;` | 15 decimal digits precision |
 | `char`    | 2 bytes| `'\u0000'`    | `char c = 'A';` | Unicode characters |
 | `boolean` | 1 bit  | false         | `boolean flag = true;` | true or false |
+
+---
 
 ### 📝 Program
 
@@ -54,6 +56,8 @@ public class PrimitiveTypes {
     }
 }
 ```
+
+---
 
 ## 2. Java Non-Primitive (Reference) Data Types  
 
@@ -90,3 +94,5 @@ public class NonPrimitiveTypes {
     }
 }
 ```
+
+---
