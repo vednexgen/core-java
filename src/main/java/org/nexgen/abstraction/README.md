@@ -69,7 +69,13 @@ public class AbstractClass {
 * From Java 8 onwards, interfaces can have **default methods** and **static methods**.
   * Default methods → methods with a body, declared with the default keyword.
   * Static methods → belong to the interface itself and can be called without an object.
-* A class can **implement multiple interfaces** (supports multiple inheritance).
+* A class can **implement multiple interfaces** (supports multiple inheritance). 
+* Interfaces can contain:
+  * Abstract methods (always public).
+  * Public static final constants (always).
+  * Default methods (since Java 8).
+  * Static methods (since Java 8).
+  * Private methods (since Java 9).
 
 ---
 
@@ -115,6 +121,26 @@ public class CustomInterface {
     }
 }
 ```
+
+### 📝 Program:Public Static Final Constants in Interfaces
+- By default, all variables in interfaces are public, static, and final.
+- They act as constants and must be initialized.
+
+```java
+interface Config {
+    int MAX_USERS = 100; // implicitly public, static, final
+    String APP_NAME = "MyJavaApp"; // implicitly public, static, final
+}
+
+public class VariablesInInterface {
+    public static void main(String[] args) {
+        System.out.println("Max Users: " + Config.MAX_USERS);
+        System.out.println("App Name: " + Config.APP_NAME);
+    }
+}
+
+```
+
 ---
 
 ### 📌 Key Notes
