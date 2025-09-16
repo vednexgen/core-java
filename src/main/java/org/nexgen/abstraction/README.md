@@ -67,8 +67,8 @@ public class AbstractClass {
 * Defines a contract that implementing classes must follow.
 * All methods in an interface are **abstract** by default (until Java 8).
 * From Java 8 onwards, interfaces can have **default methods** and **static methods**.
-  * Default methods → methods with a body, declared with the default keyword.
-  * Static methods → belong to the interface itself and can be called without an object.
+  * **_Default methods_** → methods with a body, declared with the default keyword.
+  * **_Static methods_** → belong to the interface itself and can be called without an object.
 * A class can **implement multiple interfaces** (supports multiple inheritance). 
 * Interfaces can contain:
   * Abstract methods (always public).
