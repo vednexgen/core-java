@@ -47,7 +47,7 @@ Checkbox
 💡 Tip: → for small helpful advice.  
 ⚠️ Note: → for cautionary quick tip.  
 🛠️ Help: → for troubleshooting guidance.
-
+❌ Important Point
 ### Links
 - 📖 [User Guide](docs/guide.md)
 - 💻 [Main Code](src/Main.java)

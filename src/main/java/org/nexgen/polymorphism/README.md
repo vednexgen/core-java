@@ -18,6 +18,8 @@ There are **two types of polymorphism** in Java:
 - Occurs when multiple methods in the same class have the **same name but different parameter lists** (different number or type of parameters).
 - The compiler determines which method to call **at compile time**.
 - The compiler decides which method to call based on the method signature (name + parameter list).
+  
+❌ Cannot overload only by changing return type.
 
 ### 📝 Program: Method Overloading
 
