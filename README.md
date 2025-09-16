@@ -31,5 +31,5 @@ This structure helps learners easily navigate through different topics and quick
 - [Inheritance And `super` keyword](src/main/java/org/nexgen/inheritance_and_super)
 - [Encapsulation](src/main/java/org/nexgen/encapsulation)
 - [Abstraction](src/main/java/org/nexgen/abstraction)
-- [Polymorphism]()
+- [Polymorphism](src/main/java/org/nexgen/polymorphism)
 - [Exception Handling]()
