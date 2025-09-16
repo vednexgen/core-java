@@ -1,4 +1,4 @@
-package org.nexgen.inheritance.super_keyword;
+package org.nexgen.inheritance_and_super.super_keyword;
 
 class ParentMethod {
     void show() {

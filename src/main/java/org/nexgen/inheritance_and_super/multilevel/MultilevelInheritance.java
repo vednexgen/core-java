@@ -1,4 +1,4 @@
-package org.nexgen.inheritance.multilevel;
+package org.nexgen.inheritance_and_super.multilevel;
 
 class Animal {
     void eat() {

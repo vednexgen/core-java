@@ -1,4 +1,4 @@
-package org.nexgen.inheritance.hierarchical;
+package org.nexgen.inheritance_and_super.hierarchical;
 
 class Animal {
     void eat() {

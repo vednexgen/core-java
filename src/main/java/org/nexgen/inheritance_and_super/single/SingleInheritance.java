@@ -1,4 +1,4 @@
-package org.nexgen.inheritance.single;
+package org.nexgen.inheritance_and_super.single;
 
 class Animal {
     void eat() {
