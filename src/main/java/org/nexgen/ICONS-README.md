@@ -1,3 +1,6 @@
+
+
+
 # 🚀 Main Topic
 
 ## 1. Introduction
@@ -16,7 +19,7 @@
 
 ### Styling
  - **Bold**  
- - *Italic*
+ - _Italic_
  - `Highlight`
  - _Underline_
  - ~~strikethrough~~

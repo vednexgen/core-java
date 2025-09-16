@@ -13,3 +13,23 @@ Each concept is organized into its own **package** for better clarity and separa
     - Usage notes or examples (if applicable).
 
 This structure helps learners easily navigate through different topics and quickly find the related code examples.
+
+---
+
+
+## 📑 Table of Contents
+
+- [Hello World / First Java Program](src/main/java/org/nexgen/firstprogram)
+- [Data Types](src/main/java/org/nexgen/datatypes)
+- [Operators](src/main/java/org/nexgen/operators)
+- [Scanner Class – Taking User Input](src/main/java/org/nexgen/scanner)
+- [Type Casting](src/main/java/org/nexgen/typecasting)
+- [Classes And Objects](src/main/java/org/nexgen/objects)
+- [Constructors And Methods](src/main/java/org/nexgen/constorsandmethods)
+- [Access Modifiers](src/main/java/org/nexgen/access/modifier)
+- [`this` & `static` keyword](src/main/java/org/nexgen/this_and_static)
+- [Inheritance And `super` keyword](src/main/java/org/nexgen/inheritance_and_super)
+- [Encapsulation](src/main/java/org/nexgen/encapsulation)
+- [Abstraction](src/main/java/org/nexgen/abstraction)
+- [Polymorphism]()
+- [Exception Handling]()
