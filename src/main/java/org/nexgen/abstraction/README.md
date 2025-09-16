@@ -154,7 +154,7 @@ public class VariablesInInterface {
 
 | Feature                  | Abstract Class                       | Interface                                           |
 | ------------------------ | ------------------------------------ | --------------------------------------------------- |
-| **_Methods_**              | Can have abstract & concrete methods | Only abstract (default/static allowed since Java 8) |
+| **_Methods_**            | Can have abstract & concrete methods | Only abstract (default/static allowed since Java 8) |
 | **Variables**            | Can have instance variables          | Only `public static final` constants                |
 | **Multiple Inheritance** | Not supported                        | Supported                                           |
 | **Use Case**             | When classes share common behavior   | When classes share only method contracts            |

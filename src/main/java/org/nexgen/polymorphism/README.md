@@ -157,11 +157,11 @@ public class StaticMethodHiding {
 #### 🏷️ Key Differences Between Overloading & Overriding
 
 | Feature              | Method Overloading                     | Method Overriding                        |
-| -------------------- | -------------------------------------- | ---------------------------------------- |
+|----------------------| -------------------------------------- | ---------------------------------------- |
 | Definition           | Same method name, different parameters | Same method name and parameters          |
 | Return Type          | Can be different                       | Must be same (or covariant)              |
 | Inheritance Required | No                                     | Yes, requires inheritance                |
-| Resolution           | Compile-time                           | Runtime                                  |
+| Binding Time         | Compile-time                           | Runtime                                  |
 | Access Modifiers     | Can be different                       | Cannot reduce visibility                 |
 | `static` Methods     | Can be **overloaded**                  | Cannot be overridden (**can be hidden**) |
 
