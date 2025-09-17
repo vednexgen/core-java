@@ -14,7 +14,6 @@ It is often used as an alternative to multiple `if-else-if` statements, making t
 - `case` values must be compile-time constants.
 - `break` is used to terminate a case. Without it, execution will "fall through" to the next case.
 - `default` is optional but recommended, as it handles unexpected values.
----
 
 #### 🏷️ Syntax
 
