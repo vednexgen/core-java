@@ -46,8 +46,9 @@ Checkbox
 👉 Common usage in READMEs:  
 💡 Tip: → for small helpful advice.  
 ⚠️ Note: → for cautionary quick tip.  
-🛠️ Help: → for troubleshooting guidance.
-❌ Important Point
+🛠️ Help: → for troubleshooting guidance.  
+❌ Important Point  
+ ⚡ Lightening
 ### Links
 - 📖 [User Guide](docs/guide.md)
 - 💻 [Main Code](src/Main.java)

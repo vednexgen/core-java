@@ -33,3 +33,4 @@ This structure helps learners easily navigate through different topics and quick
 - [Abstraction](src/main/java/org/nexgen/abstraction)
 - [Polymorphism](src/main/java/org/nexgen/polymorphism)
 - [If-Else & Nested If](src/main/java/org/nexgen/if_else)
+- [Switch Statement](src/main/java/org/nexgen/switch_case)
