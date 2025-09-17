@@ -3,7 +3,7 @@
 
 # 🚀 Main Topic
 
-## 1. Introduction
+## Introduction
 
 ### 📘 Concept
 

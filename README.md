@@ -34,3 +34,4 @@ This structure helps learners easily navigate through different topics and quick
 - [Polymorphism](src/main/java/org/nexgen/polymorphism)
 - [If-Else & Nested If](src/main/java/org/nexgen/if_else)
 - [Switch Statement](src/main/java/org/nexgen/switch_case)
+- [While Loop & Do-While Loop](src/main/java/org/nexgen/while_do_while)
