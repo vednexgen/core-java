@@ -35,3 +35,4 @@ This structure helps learners easily navigate through different topics and quick
 - [If-Else & Nested If](src/main/java/org/nexgen/if_else)
 - [Switch Statement](src/main/java/org/nexgen/switch_case)
 - [While Loop & Do-While Loop](src/main/java/org/nexgen/while_do_while)
+- [For Loop](src/main/java/org/nexgen/for_loop)
