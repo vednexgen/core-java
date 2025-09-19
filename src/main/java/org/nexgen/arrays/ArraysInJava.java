@@ -9,6 +9,8 @@ public class ArraysInJava {
         // Initialization with size
         numbers = new int[5];
 
+        IO.println("Number at 4 : " + numbers[4]);
+
         // Declaration + Initialization
         int[] values = {10, 20, 30, 40, 50};
 
