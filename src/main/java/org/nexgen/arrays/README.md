@@ -11,7 +11,7 @@ An **Array** in Java is a collection of elements of the same type stored in cont
 * Fixed size: Once declared, the size of the array cannot be changed.
 * Homogeneous elements: All elements must be of the same data type.
 * Index-based: Accessing elements is done using their index (0-based).
-* Stored in contiguous memory locations.
+* Stored in continuous (contiguous) memory locations.
 
 ---
 
@@ -119,4 +119,18 @@ System.out.println(arr[3]); // ArrayIndexOutOfBoundsException
 ---
 
 ### 📌 Key Notes
-Arrays are the simplest form of data structure in Java, useful for storing fixed-size, homogeneous collections with fast index-based access.
+- Arrays are the simplest form of data structure in Java, useful for storing fixed-size, homogeneous collections with fast index-based access.  
+
+- Insertion and deletion in arrays are costly because of their fixed, contiguous memory allocation. Let me break it down:
+  - Insertion  
+    - Arrays have fixed size. If the array is already full, you cannot directly insert a new element — you need to create a new array, copy all existing elements into it, and then insert the new element.  
+    - Even if there’s free space (like in partially filled arrays), inserting at the middle requires shifting elements to the right to make space.  
+    - **_Example_**: Inserting at index 2 in [10, 20, 30, 40] requires shifting 30 and 40 to the right → costly for large arrays.
+
+  - Deletion  
+    - When deleting an element, say at index 1 in [10, 20, 30, 40], you can’t leave a “hole.”  
+    - All subsequent elements (30 and 40) must be shifted left to maintain contiguous memory.  
+    - This shifting makes deletion operations O(n) in worst case.
+
+- Random access in arrays is very fast (O(1)), because the index is mapped directly to a memory location.
+- But insertion and deletion (except at the end) are slow (O(n)) because of shifting or resizing.
