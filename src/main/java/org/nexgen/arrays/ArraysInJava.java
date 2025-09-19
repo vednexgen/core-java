@@ -1,5 +1,7 @@
 package org.nexgen.arrays;
 
+import java.util.Arrays;
+
 public class ArraysInJava {
 
     public static void main(String[] args) {
@@ -8,6 +10,8 @@ public class ArraysInJava {
 
         // Initialization with size
         numbers = new int[5];
+
+        IO.println("Initial numbers : " + Arrays.toString(numbers));
 
         IO.println("Number at 4 : " + numbers[4]);
 

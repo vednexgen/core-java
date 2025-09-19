@@ -37,4 +37,4 @@ This structure helps learners easily navigate through different topics and quick
 - [While Loop & Do-While Loop](src/main/java/org/nexgen/while_do_while)
 - [For Loop](src/main/java/org/nexgen/for_loop)
 - [Arrays in Java](src/main/java/org/nexgen/arrays)
-- 
+- [ArrayList & LinkedList](src/main/java/org/nexgen/list)
