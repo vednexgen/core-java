@@ -8,7 +8,7 @@ In Java, **Collections** are part of the `java.util` package and provide ready-m
 
 ### 📘 Concept
 
-* Backed by a  [_**dynamic array**_](#-dynamic-array).
+* Backed by a  [_**dynamic array**_](#🏷️-dynamic-array).
 * Provides **fast random access** (index-based).
 * Insertion/removal at the end is fast, but slower insertions and deletions in the middle (requires shifting elements).
 * Best when read operations are frequent.
