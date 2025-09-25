@@ -8,7 +8,7 @@ In Java, **Collections** are part of the `java.util` package and provide ready-m
 
 ### 📘 Concept
 
-* Backed by a  [_**dynamic array**_](#🏷️-dynamic-array).
+* Backed by a  [_**dynamic array**_](#dynamic-array).
 * Provides **fast random access** (index-based).
 * Insertion/removal at the end is fast, but slower insertions and deletions in the middle (requires shifting elements).
 * Best when read operations are frequent.
@@ -48,7 +48,7 @@ public class ArrayListDemo {
 
 ### 2. LinkedList
 
-* Backed by a [**doubly linked list**](#-doubly-linked-list).
+* Backed by a [**doubly linked list**](#doubly-linked-list).
 * Provides **fast insertions and deletions** (no shifting required).
 * Slower access (requires traversal).
 * Best when insertions/deletions are frequent.
@@ -136,7 +136,7 @@ public class CommonOperations {
 
 ---
 
-### 🏷️ Dynamic Array
+### Dynamic Array
 
 - Internal Working (Dynamic Array)
 - Internally, ArrayList uses an Object[] elementData array.
@@ -158,7 +158,7 @@ public class CommonOperations {
 
 [🔙](#1-arrayList)
 ---
-### 🏷️ Doubly Linked List
+### Doubly Linked List
 * **Implements a doubly linked list**: Internally, `LinkedList` is made up of nodes. Each node contains three parts:
 
   1. The data (value stored).
