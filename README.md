@@ -40,3 +40,4 @@ This structure helps learners easily navigate through different topics and quick
 - [ArrayList & LinkedList](src/main/java/org/nexgen/list)
 - [Set](src/main/java/org/nexgen/set)
 - [Map](src/main/java/org/nexgen/map)
+- [Exception Handling](src/main/java/org/nexgen/exception)
