@@ -34,7 +34,7 @@ HashSet<String> names = new HashSet<>();
 ```java
 import java.util.*;
 
-public class HashSetExample {
+public class SimpleHashSet {
     public static void main(String[] args) {
         HashSet<String> set = new HashSet<>();
 

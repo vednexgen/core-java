@@ -2,7 +2,7 @@ package org.nexgen.map;
 
 import java.util.HashMap;
 
-public class HashMapNullDemo {
+public class HashMapNull {
     public static void main(String[] args) {
         HashMap<String, String> map = new HashMap<>();
 

@@ -2,7 +2,7 @@ package org.nexgen.set;
 
 import java.util.*;
 
-public class HashSetExample {
+public class SimpleHashSet {
     public static void main(String[] args) {
         HashSet<String> set = new HashSet<>();
 

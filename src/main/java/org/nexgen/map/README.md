@@ -29,7 +29,7 @@ A **HashMap** in Java is a part of the `java.util` package and implements the `M
 ```java
 import java.util.HashMap;
 
-public class HashMapDemo {
+public class HashMapSample {
     public static void main(String[] args) {
         HashMap<Integer, String> map = new HashMap<>();
 
@@ -64,7 +64,7 @@ public class HashMapDemo {
 ```java
 import java.util.HashMap;
 
-public class HashMapNullDemo {
+public class HashMapNull {
     public static void main(String[] args) {
         HashMap<String, String> map = new HashMap<>();
 

@@ -3,7 +3,7 @@ package org.nexgen.map;
 import java.util.HashMap;
 import java.util.Map;
 
-public class HashMapDemo {
+public class HashMapSample {
     public static void main(String[] args) {
         HashMap<Integer, String> map = new HashMap<>();
 
