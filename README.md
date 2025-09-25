@@ -38,3 +38,5 @@ This structure helps learners easily navigate through different topics and quick
 - [For Loop](src/main/java/org/nexgen/for_loop)
 - [Arrays in Java](src/main/java/org/nexgen/arrays)
 - [ArrayList & LinkedList](src/main/java/org/nexgen/list)
+- [Set](src/main/java/org/nexgen/set)
+- [Map](src/main/java/org/nexgen/map)

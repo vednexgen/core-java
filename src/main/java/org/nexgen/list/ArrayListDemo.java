@@ -10,6 +10,8 @@ public class ArrayListDemo {
         fruits.add("Apple");
         fruits.add("Banana");
         fruits.add("Mango");
+        fruits.add(null);
+        fruits.add(null);
 
         // Accessing elements
         System.out.println("Initial Fruits List -->> " + fruits);
