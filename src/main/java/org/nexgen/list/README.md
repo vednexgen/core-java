@@ -47,14 +47,14 @@ public class ArrayListDemo {
 
 ---
 
-### 2. LinkedList
+## 2. LinkedList
 
 * Backed by a [**doubly linked list**](#doubly-linked-list).
 * Provides **fast insertions and deletions** (no shifting required).
 * Slower access (requires traversal).
 * Best when insertions/deletions are frequent.
 
-#### Example: Using LinkedList
+### 📝 Program: Using LinkedList
 
 ```java
 import java.util.LinkedList;
@@ -91,7 +91,9 @@ public class LinkedListDemo {
 
 ---
 
-### 3. Key Differences
+### 📌 Key Notes 
+
+#### Key Differences
 
 | Feature                    | ArrayList                        | LinkedList                    |
 | -------------------------- | -------------------------------- | ----------------------------- |
@@ -101,9 +103,7 @@ public class LinkedListDemo {
 | **Memory Usage**           | Less (stores data only)          | More (stores data + links)    |
 | **Best Use Case**          | Frequent read, rare modification | Frequent insertions/deletions |
 
----
-
-### 4. Common Operations
+#### Common Operations
 
 ```java
 import java.util.*;
@@ -137,7 +137,7 @@ public class CommonOperations {
 
 ---
 
-### Dynamic Array
+### _Dynamic Array_
 
 - Internal Working (Dynamic Array)
 - Internally, ArrayList uses an Object[] elementData array.
@@ -159,7 +159,7 @@ public class CommonOperations {
 
 [🔙](#1-arrayList)
 ---
-### Doubly Linked List
+### _Doubly Linked List_
 * **Implements a doubly linked list**: Internally, `LinkedList` is made up of nodes. Each node contains three parts:
 
   1. The data (value stored).
@@ -171,8 +171,10 @@ public class CommonOperations {
 [🔙](#2-linkedList)
 ---
 
-✅ **Summary**
+### ✨ Summary
 
 * Use **ArrayList** when you need **fast random access** and **less insertion/deletion**.
 * Use **LinkedList** when you need **frequent insertions/deletions**.
 * Both implement `List` interface → can be used interchangeably in many cases.
+
+---
