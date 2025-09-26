@@ -49,10 +49,14 @@ public class ArrayListDemo {
 
 ## 2. LinkedList
 
+### 📘 Concept
+
 * Backed by a [**doubly linked list**](#doubly-linked-list).
 * Provides **fast insertions and deletions** (no shifting required).
 * Slower access (requires traversal).
 * Best when insertions/deletions are frequent.
+
+---
 
 ### 📝 Program: Using LinkedList
 
@@ -157,6 +161,8 @@ public class CommonOperations {
 
 ⚡ So, “backed by a dynamic array” = an array that grows automatically when needed, unlike normal arrays with fixed length.
 
+---
+
 [🔙](#1-arrayList)
 ---
 ### _Doubly Linked List_
@@ -169,6 +175,7 @@ public class CommonOperations {
 * **Allows fast insertion and deletion**: Unlike `ArrayList`, which may need to shift multiple elements during insertion or deletion, `LinkedList` only requires updating a few references (pointers). For example, to insert a new node, we adjust the `next` and `prev` references of the neighboring nodes, making insertion and deletion operations generally faster, especially in the middle of the list.
 
 [🔙](#2-linkedList)
+
 ---
 
 ### ✨ Summary
