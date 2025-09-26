@@ -22,7 +22,7 @@ A **HashMap** in Java is a part of the `java.util` package and implements the `M
 * The hash code determines the **bucket** where the entry (key-value pair) will be stored.
 * If multiple keys end up in the same bucket (**collision**), a **linked list** or **balanced tree (since Java 8)** is used to store entries in that bucket.
 
-### HashMap Internal Working in Java
+### ▶️ HashMap Internal Working in Java
 
 #### 🏷️ How `HashMap` Stores Data
 
@@ -88,7 +88,7 @@ map.put("Ea", "Earth");     // "Ea".hashCode() = 2236 (same!)
     * Uses `.equals()` to match the key.
     * Returns `"Earth"`.
 
-💡 **_Collision handling in HashMap = chaining (LinkedList/Tree) + equals() check_**
+`💡 Collision handling in HashMap = chaining (LinkedList/Tree) + equals() check`
 
 ---
 
