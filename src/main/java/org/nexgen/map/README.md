@@ -31,7 +31,7 @@ A **HashMap** in Java is a part of the `java.util` package and implements the `M
     * When you call `map.put(key, value)`, the `hashCode()` of the key is computed.
     * This hash is processed and mapped to a **bucket index** using:
 
-      ```java
+      ```
       index = (n - 1) & hash   // where n = number of buckets
       ```
     * Data is stored in an array (called **table**), where each slot is a bucket.
@@ -41,8 +41,6 @@ A **HashMap** in Java is a part of the `java.util` package and implements the `M
     * Each bucket holds entries (key-value pairs).
     * **Java 7 and earlier**: Linked List of Nodes.
     * **Java 8 and later**: If a bucket has more than 8 entries, the list converts to a **Red-Black Tree** for faster lookup (O(log n)).
-
----
 
 #### 🏷️ How Retrieval Works
 
@@ -56,8 +54,6 @@ When calling `map.get(key)`:
     * If hashes match, compare the **keys with `.equals()`**.
     * If both match → return the corresponding value.
 
----
-
 #### 🏷️ Handling Hash Collisions
 
 * Two different keys may produce the same bucket index.
@@ -70,11 +66,9 @@ When calling `map.get(key)`:
         * Compare hashes.
         * Use `.equals()` to find the exact key.
 
----
-
 #### 🏷️ Example
 
-```java
+```
 Map<String, String> map = new HashMap<>();
 map.put("FB", "Facebook");  // "FB".hashCode() = 2236
 map.put("Ea", "Earth");     // "Ea".hashCode() = 2236 (same!)
