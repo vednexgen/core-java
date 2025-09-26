@@ -24,6 +24,13 @@ public class CommonOperations {
 
         System.out.println("Updated ArrayList numbers -->> " + numbers);
 
+        for(Integer num : numbers) {
+            num++;
+            IO.println(num);
+        }
+
+        numbers.forEach(IO::println);
+
         // Convert to LinkedList
         List<Integer> linkedNumbers = new LinkedList<>(numbers);
         System.out.println("LinkedList linkedNumbers -->> " + linkedNumbers);

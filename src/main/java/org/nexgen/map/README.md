@@ -22,6 +22,80 @@ A **HashMap** in Java is a part of the `java.util` package and implements the `M
 * The hash code determines the **bucket** where the entry (key-value pair) will be stored.
 * If multiple keys end up in the same bucket (**collision**), a **linked list** or **balanced tree (since Java 8)** is used to store entries in that bucket.
 
+### HashMap Internal Working in Java
+
+#### 🏷️ How `HashMap` Stores Data
+
+1. **Hashing the Key**
+
+    * When you call `map.put(key, value)`, the `hashCode()` of the key is computed.
+    * This hash is processed and mapped to a **bucket index** using:
+
+      ```java
+      index = (n - 1) & hash   // where n = number of buckets
+      ```
+    * Data is stored in an array (called **table**), where each slot is a bucket.
+
+2. **Bucket Structure**
+
+    * Each bucket holds entries (key-value pairs).
+    * **Java 7 and earlier**: Linked List of Nodes.
+    * **Java 8 and later**: If a bucket has more than 8 entries, the list converts to a **Red-Black Tree** for faster lookup (O(log n)).
+
+---
+
+#### 🏷️ How Retrieval Works
+
+When calling `map.get(key)`:
+
+1. Compute `hashCode()` of the key.
+2. Find the **bucket index** using `(n - 1) & hash`.
+3. Traverse the bucket:
+
+    * Compare the **hash**.
+    * If hashes match, compare the **keys with `.equals()`**.
+    * If both match → return the corresponding value.
+
+---
+
+#### 🏷️ Handling Hash Collisions
+
+* Two different keys may produce the same bucket index.
+* `HashMap` resolves collisions using **chaining**:
+
+    1. Store both entries in the same bucket as linked nodes (or tree nodes if many).
+    2. During `get(key)`:
+
+        * Traverse the chain/tree.
+        * Compare hashes.
+        * Use `.equals()` to find the exact key.
+
+---
+
+#### 🏷️ Example
+
+```java
+Map<String, String> map = new HashMap<>();
+map.put("FB", "Facebook");  // "FB".hashCode() = 2236
+map.put("Ea", "Earth");     // "Ea".hashCode() = 2236 (same!)
+```
+
+👉 Both `"FB"` and `"Ea"` have the same hash, so they go to the **same bucket**.
+
+* Internally, the bucket contains:
+
+  ```
+  ("FB", "Facebook") -> ("Ea", "Earth")
+  ```
+* When calling `map.get("Ea")`, it:
+
+    * Finds the bucket.
+    * Traverses the nodes.
+    * Uses `.equals()` to match the key.
+    * Returns `"Earth"`.
+
+💡 **_Collision handling in HashMap = chaining (LinkedList/Tree) + equals() check_**
+
 ---
 
 ### 📝 Program: Basic HashMap Usage
