@@ -26,6 +26,7 @@ This structure helps learners easily navigate through different topics and quick
 - [Type Casting](src/main/java/org/nexgen/typecasting)
 - [Classes And Objects](src/main/java/org/nexgen/objects)
 - [Constructors And Methods](src/main/java/org/nexgen/constorsandmethods)
+- [Packages](src/main/java/org/nexgen/packages)
 - [Access Modifiers](src/main/java/org/nexgen/access/modifier)
 - [`this` & `static` keyword](src/main/java/org/nexgen/this_and_static)
 - [Inheritance And `super` keyword](src/main/java/org/nexgen/inheritance_and_super)

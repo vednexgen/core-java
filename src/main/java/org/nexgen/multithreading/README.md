@@ -79,7 +79,8 @@ class MyRunnable implements Runnable {
 
 ### ▶️ Thread Synchronization
 
-When multiple threads access shared resources, we must prevent **data inconsistency**.
+- When multiple threads access shared resources without synchronization, it may cause data inconsistency (also called race conditions).  
+- Synchronization ensures that only one thread can access the critical section (shared resource) at a time.
 
 ### 📝 Program: Using synchronized keyword
 

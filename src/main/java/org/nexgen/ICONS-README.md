@@ -44,7 +44,7 @@ Checkbox
 ⚠️ ⚠️ (caution/helpful warning)  
 🆘 🆘 (help/support)  
 🤔 🤔 (think about this)  
-🛠️ 🛠️ (helpful trick / fix)  
+🛠️ 🛠 (helpful trick / fix)  
 👉 Common usage in READMEs:  
 💡 Tip: → for small helpful advice.  
 ⚠️ Note: → for cautionary quick tip.  
