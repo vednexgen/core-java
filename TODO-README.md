@@ -1,2 +1,0 @@
-- First program with java 25
-- Annotations
