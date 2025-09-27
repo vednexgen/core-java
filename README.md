@@ -41,3 +41,5 @@ This structure helps learners easily navigate through different topics and quick
 - [Set](src/main/java/org/nexgen/set)
 - [Map](src/main/java/org/nexgen/map)
 - [Exception Handling](src/main/java/org/nexgen/exception)
+- [Multi Threading](src/main/java/org/nexgen/multithreading)
+- [Lambdas & Streams](src/main/java/org/nexgen/lambda_stream)

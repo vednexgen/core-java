@@ -33,7 +33,7 @@ Checkbox
 - [ ]  point one
 - [x]  point one
 
-✅ Quick Tip / Note  
+✅ ✔️ Quick Tip / Note  
 💡 💡 (idea / tip)  
 📝 📝 (note to remember)  
 🔑 🔑 (key point / takeaway)  
@@ -51,8 +51,6 @@ Checkbox
 🛠️ Help: → for troubleshooting guidance.  
 ❌ Important Point  
  ⚡ Lightening
-
-
 
 ### Links
 - 📖 [User Guide](docs/guide.md)
