@@ -16,7 +16,6 @@ This structure helps learners easily navigate through different topics and quick
 
 ---
 
-
 ## 📑 Table of Contents
 
 - [Hello World / First Java Program](src/main/java/org/nexgen/firstprogram)

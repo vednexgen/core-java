@@ -91,6 +91,15 @@ public class BuiltInPackageDemo {
 
 ---
 
+## Best Practices
+
+- Always use your reverse Internet domain name as the root (e.g., `com.example`).
+- Keep related classes together.
+- Never use default package (`no package;`) for real projects.
+- Use meaningful package names.
+
+---
+
 ### 📌 Key Notes
 
 * Packages help in organizing and modularizing code.
