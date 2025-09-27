@@ -43,3 +43,4 @@ This structure helps learners easily navigate through different topics and quick
 - [Exception Handling](src/main/java/org/nexgen/exception)
 - [Multi Threading](src/main/java/org/nexgen/multithreading)
 - [Lambdas & Streams](src/main/java/org/nexgen/lambda_stream)
+- [Annotations](src/main/java/org/nexgen/annotation)
