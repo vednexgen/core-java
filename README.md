@@ -16,6 +16,6 @@ This structure helps learners easily navigate through different topics and quick
 
 ---
 ## 🚀 Ready to dive in?
-[![Let's Go](https://img.shields.io/badge/Let's_Go-🔄-bcd4e6?style=for-the-badge&labelColor=bcd4e6)](./TABLE_CONTENT_README.md)
+[![Let's Go](https://img.shields.io/badge/Let's_Go-🔄-bcd4e6?style=for-the-badge&labelColor=bcd4e6)](course-docs/TABLE_CONTENT_README.md)
 
 ---
