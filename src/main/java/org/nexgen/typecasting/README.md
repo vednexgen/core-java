@@ -101,3 +101,8 @@ public class CastingArithmetic {
 * Type casting converts data from one type to another.
 * Java supports **implicit** and **explicit** casting.
 * Essential for mathematical operations, data conversions, and type compatibility.
+
+---
+
+[![](https://img.shields.io/badge/Go_Back-🔙-d6cadd?style=for-the-badge&labelColor=d6cadd)](../../../../../../README.md)
+

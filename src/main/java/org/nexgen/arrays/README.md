@@ -134,3 +134,7 @@ System.out.println(arr[3]); // ArrayIndexOutOfBoundsException
 
 - Random access in arrays is very fast (O(1)), because the index is mapped directly to a memory location.
 - But insertion and deletion (except at the end) are slow (O(n)) because of shifting or resizing.
+
+---
+
+[![](https://img.shields.io/badge/Go_Back-🔙-d6cadd?style=for-the-badge&labelColor=d6cadd)](../../../../../../README.md)

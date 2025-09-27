@@ -141,7 +141,7 @@ public class CommonOperations {
 
 ---
 
-### _Dynamic Array_
+### Dynamic Array
 
 - Internal Working (Dynamic Array)
 - Internally, ArrayList uses an Object[] elementData array.
@@ -165,7 +165,7 @@ public class CommonOperations {
 
 [🔙](#1-arrayList)
 ---
-### _Doubly Linked List_
+### Doubly Linked List
 * **Implements a doubly linked list**: Internally, `LinkedList` is made up of nodes. Each node contains three parts:
 
   1. The data (value stored).
@@ -185,3 +185,6 @@ public class CommonOperations {
 * Both implement `List` interface → can be used interchangeably in many cases.
 
 ---
+
+[![](https://img.shields.io/badge/Go_Back-🔙-d6cadd?style=for-the-badge&labelColor=d6cadd)](../../../../../../README.md)
+

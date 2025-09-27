@@ -169,3 +169,6 @@ public class HashMapNull {
 * Not thread-safe; use `ConcurrentHashMap` for multi-threaded applications.
 
 ---
+
+[![](https://img.shields.io/badge/Go_Back-🔙-d6cadd?style=for-the-badge&labelColor=d6cadd)](../../../../../../README.md)
+
