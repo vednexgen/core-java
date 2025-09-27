@@ -28,3 +28,9 @@
 - [Multi Threading](src/main/java/org/nexgen/multithreading)
 - [Lambdas & Streams](src/main/java/org/nexgen/lambda_stream)
 - [Annotations](src/main/java/org/nexgen/annotation)
+
+---
+
+[![](https://img.shields.io/badge/Back_To_Intro-🔙-d6cadd?style=for-the-badge&labelColor=d6cadd)](../../../../../../README.md)
+
+---
