@@ -12,25 +12,29 @@ public class Stream {
         withStream();
     }
 
-    private static void withStream() {
-        List<String> names = Arrays.asList("John", "Jane", "Mark", "Tom");
-
-        List<String> filtered = names.stream()
-                .filter(n -> n.startsWith("J"))
-                .collect(Collectors.toList());
-
-        System.out.println(filtered);
-    }
-
     private static void withoutStream() {
         List<String> names = Arrays.asList("John", "Jane", "Mark", "Tom");
 
         List<String> filtered = new ArrayList<>();
         for(String name : names) {
             if(name.startsWith("J")) {
-                filtered.add(name);
+                String newStr = name.concat(" is walking.");
+                filtered.add(newStr);
             }
         }
+
         System.out.println(filtered);
     }
+
+    private static void withStream() {
+        List<String> names = Arrays.asList("John", "Jane", "Mark", "Tom");
+
+        List<String> filtered = names.stream()
+                .filter(n -> n.startsWith("J")) // Intermediate Operation
+                .map(n -> n.concat(" is walking.")) // Intermediate Operation
+                .collect(Collectors.toList()); // Terminate Operation
+
+        System.out.println(filtered);
+    }
+
 }

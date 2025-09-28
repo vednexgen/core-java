@@ -93,13 +93,13 @@ A **functional interface** is an interface with exactly one abstract method (can
 ```java
 @FunctionalInterface
 interface MyFunctionalInterface {
-    void display();
+    void display(Person person);
 }
 
 public class FunctionalInterfaceExample {
     public static void main(String[] args) {
-        MyFunctionalInterface msg = () -> System.out.println("Hello from Lambda!");
-        msg.display();
+        MyFunctionalInterface msg = (person) -> System.out.println("Name :: " + person.getName());
+        msg.display(new Person("VedNexGen"));
     }
 }
 ```
@@ -131,7 +131,8 @@ public class Streams {
         List<String> filtered = new ArrayList<>();
         for(String name : names) {
             if(name.startsWith("J")) {
-                filtered.add(name);
+                String newStr = name.concat(" is walking.");
+                filtered.add(newStr);
             }
         }
         System.out.println(filtered);
@@ -152,8 +153,9 @@ public class Streams {
         List<String> names = Arrays.asList("John", "Jane", "Mark", "Tom");
 
         List<String> filtered = names.stream()
-                .filter(n -> n.startsWith("J"))
-                .collect(Collectors.toList());
+                .filter(n -> n.startsWith("J")) // Intermediate Operation
+                .map(n -> n.concat(" is walking.")) // Intermediate Operation
+                .collect(Collectors.toList()); // Terminate Operation
 
         System.out.println(filtered);
     }

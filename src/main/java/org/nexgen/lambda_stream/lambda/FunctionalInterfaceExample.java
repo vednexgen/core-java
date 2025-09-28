@@ -2,12 +2,12 @@ package org.nexgen.lambda_stream.lambda;
 
 @FunctionalInterface
 interface MyFunctionalInterface {
-    void display();
+    void display(Person person);
 }
 
 public class FunctionalInterfaceExample {
     public static void main(String[] args) {
-        MyFunctionalInterface msg = () -> System.out.println("Hello from Lambda!");
-        msg.display();
+        MyFunctionalInterface msg = (person) -> System.out.println("Name :: " + person.getName());
+        msg.display(new Person("VedNexGen"));
     }
 }

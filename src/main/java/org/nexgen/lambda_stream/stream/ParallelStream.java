@@ -12,7 +12,7 @@ public class ParallelStream {
     }
 
     private static void withoutParallelStream() {
-        List<Integer> numbers = IntStream.rangeClosed(1, 1000).boxed().toList();
+        List<Integer> numbers = IntStream.rangeClosed(1, 1000_000_00).boxed().toList();
         long startTime = new Date().getTime();
         int sum = numbers.stream()
                 .filter(n -> n % 2 == 0)
@@ -24,7 +24,7 @@ public class ParallelStream {
     }
 
     private static void withParallelStream() {
-        List<Integer> numbers = IntStream.rangeClosed(1, 1000).boxed().toList();
+        List<Integer> numbers = IntStream.rangeClosed(1, 1000_000_00).boxed().toList();
         long startTime = new Date().getTime();
         int sum = numbers.parallelStream()
                 .filter(n -> n % 2 == 0)
