@@ -2,6 +2,23 @@
 
 Annotations are metadata tags introduced in Java 5. They provide information about code, used by compilers, tools, and frameworks for enforcing rules, generating code, or changing runtime behavior.
 
+### Everyday Analogy
+Imagine you’re reading a textbook. Sometimes you see:
+- 📝 Highlighted notes in the margin
+- ✅ Check marks showing important points
+- 🚫 Warnings saying “don’t do this”
+
+These extra notes do not change the actual textbook content, but they give extra meaning to the reader.
+
+👉 In Java, annotations are like those sticky notes — they don’t change your code directly but tell the compiler, tools, or runtime something important about your code.
+
+### Simple Definition for Annotations
+
+- Annotations in Java are special markers (metadata) that we attach to classes, methods, variables, etc., to provide extra information to the compiler or runtime.
+- They do not affect the business logic directly.
+- They are used by frameworks, libraries, or the Java compiler to generate, validate, or process code.
+
+
 ### 🏷️ Built-in Annotations
 
 | Annotation                                                          | Description                                                                 |
