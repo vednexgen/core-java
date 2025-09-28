@@ -24,6 +24,7 @@
 - [ArrayList & LinkedList](../src/main/java/org/nexgen/list)
 - [Set](../src/main/java/org/nexgen/set)
 - [Map](../src/main/java/org/nexgen/map)
+- [Equals and HashCode Method](../src/main/java/org/nexgen/equals_hashcode)
 - [Exception Handling](../src/main/java/org/nexgen/exception)
 - [Multi Threading](../src/main/java/org/nexgen/multithreading)
 - [Lambdas & Streams](../src/main/java/org/nexgen/lambda_stream)
