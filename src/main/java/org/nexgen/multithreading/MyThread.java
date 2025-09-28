@@ -2,7 +2,7 @@ package org.nexgen.multithreading;
 
 class MyThread extends Thread {
     public void run() {
-        System.out.println("Thread is running, using Thread interface...");
+        System.out.println("Thread is running, using Thread Class...");
     }
 
     public static void main(String[] args) {
